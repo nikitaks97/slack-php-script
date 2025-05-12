@@ -45,4 +45,5 @@ $response =  WpOrg\Requests\Requests::post(
 if(!$response->success) {
   echo $response->body;
   exit(1);
+  echo "Message sent successfully!\n";
 }
