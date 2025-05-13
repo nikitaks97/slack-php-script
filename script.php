@@ -3,7 +3,7 @@ require_once 'vendor/rmccue/requests/src/Autoload.php';
 WpOrg\Requests\Autoload::register();
 
 $response =  WpOrg\Requests\Requests::post(
-  'https://hooks.slack.com/services/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',
+  'https://hooks.slack.com/services/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',
   array(
     'Content-Type' => 'application/json'
   ),
